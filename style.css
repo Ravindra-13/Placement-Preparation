@@ -79,13 +79,13 @@ marquee{
     text-align: center;
 }
 @media(max-width:600px){
-    #bottomlogo{
-        height: 150px;
-    }
     .about{
         font-size: 7px;
     }
     .logo2{
+        height: 150px;
+    }
+    #bottomlogo{
         height: 150px;
     }
     #footer{
@@ -98,4 +98,5 @@ marquee{
         height: 100px;
     }
 }
+
 
