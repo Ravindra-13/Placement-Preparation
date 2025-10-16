@@ -80,7 +80,7 @@ marquee{
 }
 @media(max-width:600px){
     #bottomlogo{
-        height: 200px;
+        height: 150px;
     }
     .about{
         font-size: 7px;
@@ -98,3 +98,4 @@ marquee{
         height: 100px;
     }
 }
+
