@@ -69,6 +69,9 @@ marquee{
 #bottomlogo{
     height: 400px;
 }
+#logo1{
+    height: 200px;
+}
 .logo2{
     height: 300px;
 }
@@ -80,12 +83,18 @@ marquee{
         height: 200px;
     }
     .about{
-        font-size: 9px;
+        font-size: 7px;
     }
     .logo2{
         height: 150px;
     }
     #footer{
         height:225px;
+    }
+    #logo1{
+        height: 100px;
+    }
+    #title{
+        height: 100px;
     }
 }
