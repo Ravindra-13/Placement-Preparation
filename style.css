@@ -11,6 +11,8 @@ body{
     width: 25%;
 }
 #name{
+    font-size: 40px;
+    font-weight: bold;
     width: 60%;
     text-align: center;
 }
@@ -34,15 +36,18 @@ marquee{
     margin-top: 10%;
 }
 .cmp{
-    margin-left: 30%;
+    padding-top: 10%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 #companies{
-    margin-top: 25%;
+    margin-top: 50%;
 }
 #footer{
     padding-top:5% ;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 450px;
     background-color: #0c2b57;
     color: white;
@@ -79,13 +84,16 @@ marquee{
     text-align: center;
 }
 @media(max-width:600px){
+    .cmp{
+        font-size: 20px;
+    }
+    #bottomlogo{
+        height: 130px;
+    }
     .about{
         font-size: 7px;
     }
     .logo2{
-        height: 150px;
-    }
-    #bottomlogo{
         height: 150px;
     }
     #footer{
@@ -95,8 +103,9 @@ marquee{
         height: 100px;
     }
     #title{
-        height: 100px;
+        height: 150px;
+    }
+    #name{
+        font-size: 20px;
     }
 }
-
-
